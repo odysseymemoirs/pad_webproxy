@@ -1,5 +1,27 @@
 # PAD lab2 WebProxy
 
+
+# Для запуска: 
+
+1.
+```bash
+docker pull redis
+docker run --name redis1 -p 7001:6379 -d redis
+```
+2.
+
+```bash
+docker pull mongo
+docker run  -p 0.0.0.0:27017:27017 mongo
+```
+
+3.
+
+```bash
+docker run -it -p 0.0.0.0:8080:80 test2
+```
+
+
 Тематика выбранной темы - Автодилер или автомобильный агрегатор через который ежегодно продаётся более полутора миллионов подержанных машин
 
 ## Etap 1
